@@ -31,6 +31,10 @@ h1, h2, h3, h4, p, pre {
   margin: 0 auto;
 }
 
+p {
+  width: 70vw;
+  max-width: 70vw;
+}
 
 .menu-header {
   margin: 0;
