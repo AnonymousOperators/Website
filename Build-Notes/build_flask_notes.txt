@@ -49,9 +49,9 @@ sudo nano /etc/systemd/system/myproject.service
 [Unit]
 Description=Gunicorn instance to serve app
 After=network.target
-
+# Make sure the User is whatever your user is on your machine. 
 [Service]
-User=an0n
+User=user
 Group=www-data
 WorkingDirectory=/home/app
 Environment="PATH=/home/app/bin/gunicorn"
