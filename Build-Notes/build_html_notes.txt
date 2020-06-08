@@ -1,0 +1,34 @@
+# This guide implements HTML+NGINX on Debian
+# It assumes you are reading instructions, and copy/pasting commands
+
+# install dependencies on VPS or machine
+apt -y install nginx tor git;
+
+# configurations on Debian tend to be in /etc/nginx
+# Check here if you have issues after following instructions
+
+# By Default, html files are in 
+# /usr/share/nginx/html
+# If you change the html there and it doesn't render, then your files are in
+# /var/www/html
+
+# Let's get to where the html files are rendered, replace this for your system
+cd /usr/share/nginx/html
+
+# get  copy of html files
+
+git clone 
+https://github.com/AnonymousOperators/Website.git
+
+sudo mv Website/HTML/* /usr/share/nginx/html
+
+# confirm change
+ls
+# New files should show up
+
+sudo nginx -s reload
+
+# Use ctrl + f5 to refresh your browser. The files should render on your website.
+# Congrats! You're done!
+
+
