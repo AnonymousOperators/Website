@@ -1,0 +1,2 @@
+root directiory for html files
+/usr/share/nginx/html

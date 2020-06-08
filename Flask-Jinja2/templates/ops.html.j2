@@ -1,0 +1,52 @@
+{% extends 'layout.html.j2' %}
+{% block content %}
+  <h2>Operations of Interest</h2>
+  <p>You will never be asked to commit illegal activities in the name of "Anonymous"
+  <br>by Network Operators</p>
+  <br><br>
+  <br><br>
+  <h2>#OpEnough</h2>
+  <p>Protestors protesting the lack of criminal charges against the officers
+  <br>
+  involved in the death of George Floyd, were peacefully protesting until fired
+  <br>
+  upon by Minniapolis Police with tear gas, a violation of their 1st Amendment Rights.
+  <br>
+  Since then, people accross the United States are protesting numerous issues.
+  <br><br>
+  #OpEnough is a legal op protesting police Impunity, the violations of the 1st Amendment,
+  <br>
+  Government Racism, and Police Brutality.
+  </p>
+  <br>
+  <div style="margin: 0 auto; text-align: center;">
+  <video controls>
+  <source src="{{ url_for('static', filename='videos/charge-the-cops.mp4') }}" type='video/mp4'>
+  </video>
+
+  <br><br>
+  <br><br>
+
+  <h2>#OpSpeakCode</h2>
+  <p>#OpSpeakCode is a legal operation teaching people about the importance of Free Software (FOSS),
+  <br>
+  as well as teaching people about the importance of integrity in technology.
+  <br><br>
+  If you haven't seen it yet, please watch this TED Talk from Richard Stallman.
+  </p>
+  <br>
+  <div style="margin: 0 auto; text-align: center;">
+  <iframe style="max-width: 75vw; width: 75vw; max-height: 65vh; height: 65vh;" src="https://www.youtube-nocookie.com/embed/Ag1AKIl_2GM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <br>
+  <p>You can participate in this operation by:
+  <br>
+  1) Teaching others to program in a FOSS language (like Python)
+  <br>
+  2) Teaching others the importance of FOSS
+  <br>
+  3) Helping users install and use a FOSS Operating System (Debian)
+  <br>
+  4) Developing FOSS programs, such as Tor Browser.
+  <br><br>
+{% endblock content %}

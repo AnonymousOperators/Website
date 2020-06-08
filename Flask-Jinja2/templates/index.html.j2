@@ -1,0 +1,30 @@
+{% extends 'layout.html.j2' %}
+
+{% block content %}
+ <div class="intro">
+    <h2>Who are we?</h2>
+    <p>We are a people that supports freedom.
+    <br>
+    Freedom of speech, freedom of thought, and others defined in the Bill of Rights of the United States of America.
+    <br><br>
+    If you support this, you are one of us!
+    <br><br>
+    Despite popular misconception, we are not a terrorist group, criminal organization, or "hacktivist" club.
+    <br>
+    We're simply a people that supports freedom for people for a free and independent society. Freedom that doesn't violate others.
+    </p>
+  </div>
+  <br><br><br>
+
+  <h2>Current Operations</h2>
+
+
+  <div class="enough">
+  <h1>#OpEnough</h1>
+   <video class="enough-vid" controls>
+    <source src="{{ url_for('static', filename='videos/charge-the-cops.mp4') }}" type="video/mp4">
+Your browser does not support the audio element.
+  </video>
+  </div>
+
+{% endblock content %}

@@ -1,0 +1,43 @@
+{% extends 'layout.html.j2' %}
+
+{% block content %}
+
+   <div class="about">
+      <h2>About the Network</h2>
+      <p>
+        Our network was started to be a solution to what our community felt were problems
+        for the anonymous community in general on other networks.
+        <br><br>
+        For example, Freenode.net has a <em>great</em> community full of open source
+        projects and technically skilled individuals. But there is no anonymous registration. This puts people in oppressed nations without freedom of speech in danger.
+        <br><br>
+        Many Anonymous networks who did allow anonymous registration were hostile enviroments
+        with little empathy from the network operators.
+        <br><br>
+        Our network has the following definite purposes:
+        <br>
+        1) Provide a Network promoting Privacy, Anonymity and Freedom.
+        <br>
+        2) Provide an network friendly to the culture of Anonymous, the concept of freedom.
+        <br>
+        This allows people from all over the world to speak on matters they feel are important, anonymously.
+        <br><br>
+        Although hackers are welcome to our network, you do not need to be a hacker to be welcome. Our goal is to promote our philosophy, not teach everyone computer science.
+        <br><br>
+        If you have any questions, comments,
+        or suggestions you are free to tell them in the #help IRC channel, or email anonymousoperators@tutanota.com
+      </p>
+      <br><br>
+
+      <div style="margin: 0 auto; text-align: center;" class="AnonOpers">
+      <img style="text-align: center;" src="{{ url_for('static', filename='images/Anonymous-ppl.png') }}"/>
+      </div>
+      <br><br>
+      <h2>Disclaimer</h2>
+      <p>Our Server DOES NOT LOG user activities and we explicitly have NO LIABILITY for content posted by our users, just as Tor Exit Node maintainers are not liable for content that leaves their nodes.
+      <br><br>
+      Our Network can not give Legal Authorities information we do not have.
+      </p>
+<br><br>
+
+{% endblock content %}

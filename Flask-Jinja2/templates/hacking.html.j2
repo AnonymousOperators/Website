@@ -1,0 +1,31 @@
+{% extends 'layout.html.j2' %}
+
+{% block content %}
+
+   <h2>Hackers Welcome Home</h2>
+
+    <div class="emblem">
+    <a href='http://www.catb.org/hacker-emblem/'>
+    <div style="text-align: center; margin: 0 auto; ">
+      <img style="background: white; background-color: white;" src="{{ url_for('static', filename='images/glider.svg') }}" alt="Hacker Emblem" height="500" width="500"/>
+    </div>
+    </a>
+    </div>
+
+
+    <p>
+    "Asking how to hack, is like asking how to invent, doesn't work that way"
+    <br><br>
+    Our IRC welcomes hackers. Not to be confused with "crackers".
+    <br><br>
+    We want to provide sincere appreciation and gratitude to Eric S. Raymond for this emblem, his support of freedom, and his influence
+    on the hacking culture.
+    <br><br>
+    You can find his site here: http://www.catb.org/~esr/
+    <br>
+    "How to Hack": http://www.catb.org/~esr/faqs/hacker-howto.html
+    <br>
+    Source of emblem: http://www.catb.org/hacker-emblem/
+    </p>
+
+{% endblock content %}
