@@ -12,6 +12,12 @@ html {
   animation: fadein 5s;
 }
 
+pre {
+  max-width: 80vw !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+  font-size: 1.5em;
+}
 
 .header {
   position: sticky;
@@ -104,6 +110,11 @@ video, img {
 }
 @media (max-width: 1100px)
 {
+
+  pre {
+    font-size: 0.5em;
+  }
+
   .menu-header {
     padding: 0 20px;
   }
