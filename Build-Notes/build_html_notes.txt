@@ -7,7 +7,7 @@ apt -y install nginx tor git;
 # configurations on Debian tend to be in /etc/nginx
 # Check here if you have issues after following instructions
 
-# By Default, html files are in 
+# By Default, html files are in
 # /usr/share/nginx/html
 # If you change the html there and it doesn't render, then your files are in
 # /var/www/html
@@ -17,7 +17,7 @@ cd /usr/share/nginx/html
 
 # get  copy of html files
 
-git clone 
+git clone
 https://github.com/AnonymousOperators/Website.git
 
 sudo mv Website/HTML/* /usr/share/nginx/html
@@ -30,5 +30,5 @@ sudo nginx -s reload
 
 # Use ctrl + f5 to refresh your browser. The files should render on your website.
 # Congrats! You're done!
-
-
+# test comment
+# another one
